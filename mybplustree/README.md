@@ -1,5 +1,5 @@
 # BPlusTree
-B+ Tree implementation in Java
+Specific B+ Tree implementation in Java
 
 作为内存版B+树，仅支持最大3节点，实际上，无论是几个节点的B+树，其时间复杂度都是O(log2n)，
 
