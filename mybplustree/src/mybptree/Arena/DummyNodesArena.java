@@ -10,7 +10,6 @@ import mybptree.Node.nodesnumstate.OneNodeState;
 
 public class DummyNodesArena<TKey extends Comparable<TKey>,TValue> extends NodesArena<TKey,TValue> {
     MyBPTree<TKey,TValue> bpTree;
-
     public DummyNodesArena() {
     }
     public DummyNodesArena(MyBPTree bpTree) {
