@@ -10,8 +10,11 @@ import mybptree.Node.LeafNode;
 // 接口不设计泛型，根据调用时方法所规定的泛型决定
 public interface ArenaState {
     <TKey extends Comparable<TKey>, TValue> BTreeNode handleInsertion(NodesArena nodesArena, BTreeNode insertNode);
+
     <TKey extends Comparable<TKey>, TValue> BTreeNode<TKey,TValue> handleDeletion(NodesArena<TKey, TValue> nodesArena, BTreeNode<TKey, TValue> deletedNode, NodesArena<TKey, TValue> winner);
+
     <TKey extends Comparable<TKey>, TValue> BTreeNode<TKey,TValue> doDelete(NodesArena<TKey, TValue> nodesArena, LeafNode<TKey, TValue> deleteNode);
+
     <TKey extends Comparable<TKey>, TValue> NodesArena getChildArena(IndexNodesArena<TKey, TValue> nodesArena);
 
     <TKey extends Comparable<TKey>, TValue> BTreeNode handleSelection(NodesArena<TKey, TValue> nodesArena, TKey tKey);
