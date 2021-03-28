@@ -19,7 +19,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bc61784-719e-4578-8a6a-5331750b83c1" name="Default Changelist" comment="test new idea1" />
+    <list default="true" id="3bc61784-719e-4578-8a6a-5331750b83c1" name="Default Changelist" comment="format">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/DummyNodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/IndexNodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/LeafNodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/NodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/NullLeafNodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/NullNodesArena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/ArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/AbstractDummyArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/DummyIndexArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/DummyLeafArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/OneLeftArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/OneRightArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/TwoLeftArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/TwoMidArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Arena/arenastate/Impl/TwoRightArenaState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/MyBPTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/AbstractLeafNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/BTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/GeneralBPNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/IndexNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/LeafNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/NullBTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/NullLeafNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/nodesnumstate/NodesNumState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/nodesnumstate/OneNodeState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybplustree/mybptree/Node/nodesnumstate/TwoNodeState.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +66,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="MyBPTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,6 +80,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606631162416</updated>
       <workItem from="1606631163498" duration="867000" />
+      <workItem from="1616918254627" duration="101000" />
+      <workItem from="1616918705174" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="test new idea">
       <created>1606631265547</created>
@@ -85,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606631428319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1616918324941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616918324941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="format">
+      <created>1616919007913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616919007913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="format">
+      <created>1616919331050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616919331050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,36 +164,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test new idea" />
     <MESSAGE value="test new idea1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test new idea1" />
+    <MESSAGE value="init" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1606631222181">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1616919379421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606631222181" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1606632732257">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1616919379421" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1616919509953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606632732257" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1606632732257">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616919509953" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616919554717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606632732257" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1606632732257">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616919554717" />
+    <state x="509" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1616919193177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606632732257" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1606632732257">
+    <state x="509" y="146" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616919193177" />
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616918330030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606632732257" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1606631430266">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606631430266" />
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1616918330030" />
   </component>
 </project>
