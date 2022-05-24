@@ -42,20 +42,6 @@ public class MyBPTree<TKey extends Comparable<TKey>, TValue> {
 
     public static void main(String[] args) {
         MyBPTree tree = new MyBPTree<>();
-        /*for (int i = 1000; i >500 ; i--) {
-            tree.add(i,i);
-        }
-        for (int i = 800; i<1500 ; i++) {
-            tree.add(i,i);
-        }
-
-        for (int i = 1300; i >600 ; i--) {
-           System.out.println(tree.delete(i));
-        }
-        for (int i = 1400; i <1450 ; i++) {
-           // System.out.println(i);
-            System.out.println(tree.delete(i));
-        }*/
         for (int i = 0; i < 100; i++) {
             tree.add(i, null);
         }
