@@ -1,15 +1,18 @@
 package mybptree.Node;
 
-
 import mybptree.Arena.LeafNodesArena;
 import mybptree.Arena.NodesArena;
 
-public class NullLeafNode<TKey extends Comparable<TKey>,TValue> extends AbstractLeafNode<TKey,TValue>{
-    private static NullLeafNode nullLeafNode=new NullLeafNode();
-    private NullLeafNode(){}
-    public static NullLeafNode getInstance(){
+public class NullLeafNode<TKey extends Comparable<TKey>, TValue> extends AbstractLeafNode<TKey, TValue> {
+    private static NullLeafNode nullLeafNode = new NullLeafNode();
+
+    private NullLeafNode() {
+    }
+
+    public static NullLeafNode getInstance() {
         return nullLeafNode;
     }
+
     @Override
     public TValue gettValue() {
         return null;
@@ -29,6 +32,7 @@ public class NullLeafNode<TKey extends Comparable<TKey>,TValue> extends Abstract
     public void handleUnderFlow(LeafNodesArena nodesArena, NodesArena winner) {
         return;
     }
+
     public NullLeafNode(TKey tKey) {
         super(tKey);
     }
