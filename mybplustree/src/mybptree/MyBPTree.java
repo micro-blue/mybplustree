@@ -7,8 +7,8 @@ import mybptree.Node.LeafNode;
 
 public class MyBPTree<TKey extends Comparable<TKey>, TValue> {
 
-    public NodesArena<TKey, TValue> root;
-    private long size;
+    public  NodesArena<TKey, TValue> root;
+    private long                     size;
 
     public MyBPTree() {
         this.root = new NullLeafNodesArena(this);
@@ -41,7 +41,9 @@ public class MyBPTree<TKey extends Comparable<TKey>, TValue> {
     }
 
     public static void main(String[] args) {
+
         MyBPTree tree = new MyBPTree<>();
+
         for (int i = 0; i < 100; i++) {
             tree.add(i, null);
         }
@@ -49,7 +51,7 @@ public class MyBPTree<TKey extends Comparable<TKey>, TValue> {
             tree.delete(i);
         }
 
-        System.out.println("====222======");
+        System.out.println("==========");
         Iterator<Integer, Object> iterator = new Iterator<>(tree);
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
@@ -59,9 +61,9 @@ public class MyBPTree<TKey extends Comparable<TKey>, TValue> {
 }
 
 class Iterator<TKey extends Comparable<TKey>, TValue> {
-    MyBPTree tree;
+    MyBPTree                     tree;
     LeafNodesArena<TKey, TValue> cur;
-    LeafNode<TKey, TValue> curLeafNode;
+    LeafNode<TKey, TValue>       curLeafNode;
 
     public Iterator(MyBPTree tree) {
         this.tree = tree;
