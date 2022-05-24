@@ -6,6 +6,8 @@ import mybptree.Arena.NodesArena;
 public class NullLeafNode<TKey extends Comparable<TKey>, TValue> extends AbstractLeafNode<TKey, TValue> {
     private static NullLeafNode nullLeafNode = new NullLeafNode();
 
+
+
     private NullLeafNode() {
     }
 
